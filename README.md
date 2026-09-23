@@ -5,6 +5,11 @@ Prerequisites:
 - [vapoursynth](https://github.com/vapoursynth/vapoursynth)
 - [vs-jetpack](https://github.com/Jaded-Encoding-Thaumaturgy/vs-jetpack)
 - [vsview](https://github.com/Jaded-Encoding-Thaumaturgy/vs-view)
+- [BestSource](https://github.com/vapoursynth/bestsource)
+- [fmtconv](https://gitlab.com/EleonoreMizo/fmtconv)
+- [akarin](https://github.com/AkarinVS/vapoursynth-plugin)
+
+Most of the above should be installed with the vs-jetpack installation method recommended in its readme.
 
 Recommended usage:
 
