@@ -1,2 +1,15 @@
 # delowpass_bruteforce
-Utility for finding the lowpass method of a video
+
+Prerequisites:
+
+- [vapoursynth](https://github.com/vapoursynth/vapoursynth)
+- [vs-jetpack](https://github.com/Jaded-Encoding-Thaumaturgy/vs-jetpack)
+- [vsview](https://github.com/Jaded-Encoding-Thaumaturgy/vs-view)
+
+Recommended usage:
+
+- Open script in editor
+- Sync sources and select frames with lots of sharp content, like credits (open script in vsview for this)
+- Run bruteforcer (run script like a python script for this)
+
+Further reading: [delowpass guide](https://gist.github.com/motbob/da0b5c7056f23eda7e9b8b0af0da909b)
