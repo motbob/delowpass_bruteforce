@@ -9,7 +9,7 @@ Prerequisites:
 - [fmtconv](https://gitlab.com/EleonoreMizo/fmtconv)
 - [akarin](https://github.com/AkarinVS/vapoursynth-plugin)
 
-Most of the above should be installed with the vs-jetpack installation method recommended in its readme.
+Most of the above should be installed with the vs-jetpack installation method recommended in the vs-jetpack readme.
 
 Recommended usage:
 
