@@ -194,9 +194,9 @@ def delowpass_bruteforcer(frame_numbers, clean_8, lowpassed_8, ll, bits, kernels
 # frame_numbers = [0] #if you're testing images, obviously you can only pick 1 frame
 # clamp = True #images are inherently clamped, so DO NOT CHANGE TO FALSE
 
-clean_8 = initialize_clip(core.bs.VideoSource(source=R"D:\[SubsPlease] Yomi no Tsugai - 02 (1080p) [81EC5E72].mkv"), 8, 1, 1, 1)
-lowpassed_8 = initialize_clip(core.bs.VideoSource(source=R"D:\[BDMV][260708][Yomi no Tsugai][Vol.1][Aniplex LE][JPN][Bikko@U2]\ANZX-18051\BDMV\STREAM\00005.m2ts"), 8, 1, 1, 1)
-frame_numbers = [33750, 33850] #testing multiple frames is recommended if possible
+clean_8 = initialize_clip(core.bs.VideoSource(source=R"path/to/clean/source.mkv"), 8, 1, 1, 1)
+lowpassed_8 = initialize_clip(core.bs.VideoSource(source=R"path/to/lowpassed/source.mkv"), 8, 1, 1, 1)
+frame_numbers = [33750, 33850] #testing multiple frames is recommended
 clamp = False # see the delowpass guide for information about what to set this to
 
 ll = [False] #add "True" if you want to test ll (benefit unclear)
