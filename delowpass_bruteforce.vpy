@@ -19,6 +19,7 @@ def delowpass_bruteforcer(frame_numbers, clean_8, lowpassed_8, ll, bits, kernels
     report_clamp = False
     if frame_numbers == [0]: #if the input is an image file, we must clamp, and we must not tell the user that clamping the actual delowpass is appropriate
         clamp_list = [True]
+        print("Note: When testing an image file, clamp is automatically set to True and cannot be changed.")
     elif len(clamp_list) == 2:
         report_clamp = True
     if ll == [False]:
