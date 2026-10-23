@@ -24,7 +24,7 @@ def delowpass_bruteforcer(frame_numbers, clean_8, lowpassed_8, ll, bits, kernels
     if ll == [False]:
         report_ll = False
     else:
-        report_ll = False
+        report_ll = True
     if bits == [16]:
         report_bits = False
     else:
