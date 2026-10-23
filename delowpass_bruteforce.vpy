@@ -115,7 +115,7 @@ def delowpass_bruteforcer(frame_numbers, clean_8, lowpassed_8, ll, bits, kernels
                                 lowest_error = error_n
                                 print(f"Lowest error is now {error_string}")
     error_list.sort(key=lambda x: x[1][0])
-    top_error_amount = len(bits) * 50
+    top_error_amount = len(bits) * 50 * len(clamp_list)
     top_error_dict = error_list[:top_error_amount]
     if len(frame_numbers) > 1:
         for n in frame_numbers:
